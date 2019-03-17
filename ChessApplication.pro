@@ -16,7 +16,12 @@ SOURCES += \
         main.cpp \
     chesspiece.cpp \
     gameboard.cpp \
-    pawnmovestrategy.cpp
+    pawnmovestrategy.cpp \
+    rookmoventstrategy.cpp \
+    knightmoventstrategy.cpp \
+    bishopmoventstrategy.cpp \
+    queenmoventstrategy.cpp \
+    kingmoventstrategy.cpp
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
@@ -34,4 +39,9 @@ HEADERS += \
     gameboard.h \
     chesstypes.h \
     imovestrategy.h \
-    pawnmovestrategy.h
+    pawnmovestrategy.h \
+    rookmoventstrategy.h \
+    knightmoventstrategy.h \
+    bishopmoventstrategy.h \
+    queenmoventstrategy.h \
+    kingmoventstrategy.h
